@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".OrderDetailsFragement"
     android:background="@color/yellow">
 
@@ -32,6 +32,14 @@
             android:textSize="18sp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"/>
+        <ImageButton
+            android:id="@+id/btnDownloadIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:src="@drawable/download_icon"
+            android:layout_marginLeft="340dp"/>
     </LinearLayout>
+
 
 </LinearLayout>

@@ -4,7 +4,7 @@
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".OrderConfirmationFragement"
     android:background="@color/yellow">
 
@@ -52,10 +52,11 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"/>
+
     <ListView
         android:id="@+id/lstOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:visibility="gone"/>
+        android:background="@color/white"/>
+
 </LinearLayout>
